@@ -30,13 +30,13 @@ String debugLogData;
 /*String containing Hostname, Device Id & Device Key in the format:                         */
 /*  "HostName=<host_name>;DeviceId=<device_id>;SharedAccessKey=<device_key>"                */
 /*  "HostName=<host_name>;DeviceId=<device_id>;SharedAccessSignature=<device_sas_token>"    */
-static  char *connectionString = "HostName=YawnMassageIoT.azure-devices.net;DeviceId=TestDeviceA1;SharedAccessKey=0xhYGRc4X0ucPxcipqFb13TUOq+Z1lhXSWKCgos0S/g=";
+static  char *connectionString = "HostName=**************************t;DeviceId=TestDeviceA1;SharedAccessKey=***************************/g=";
 
 //Create a char variable to store our JSON format
 const char *messageData = "{\"deviceData\":\"%s\"}";
 const char *reportedData = "{\"deviceId\":\"%s\",\"Random\":%d}";
 
-String host = "yawnmassagestorage.blob.core.windows.net";
+String host = "********************************";
 String bin="/yawncontainer/espServer.ino.nodemcu.bin?sp=r\"&\"st=2019-04-13T02:59:06Z\"&\"se=2019-04-13T10:59:06Z\"&\"spr=https\"&\"sv=2018-03-28\"&\"sig=KPywl76LMnF%2FoYbTXMPzghzDmsIbDuuiGDxulCpvkxI%3D\"&\"sr=b";
 const char *onSuccess = "\"Successfully invoke device method\"";
 const char *notFound = "\"No method found\"";
